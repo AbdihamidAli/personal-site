@@ -1,0 +1,182 @@
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
+/* editing below this line */
+
+body {
+   background-color: lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
+
+
+#content {
+  width: auto;
+  margin: auto;
+  background-color: white;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px 100px;
+}
+
+img {
+  border-style: solid;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  border-color: rgb(201, 0, 0);
+  border-width: 2px;
+  
+}
+
+.c-site-header {
+  font-size: 100px;
+  color: darkgray;
+}
+
+.c-site-footer {
+  font-size: 20px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  padding: 10px 50px;
+  
+}
+.c-site-footer:hover {
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(100, 53, 53);
+  color: white;
+  padding: 10px 50px;
+  
+}
+
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 98.7%;
+}
+
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: linear-gradient(#5a8f7f, #93ac87);;
+  color: #2b2839;
+  border-bottom: 6px solid #05485c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  margin: 20px;
+    width: 120px;
+    border: 1px dotted whitesmoke;
+}
+.border-blue {
+  border: 1px dotted blue;
+}
+
+.textReplac{
+  color: white;
+  align-items: center;
+}
+
+@font-face {
+  src: url("Corleone.ttf");
+  font-family: Corleone;
+}
+
+#font-g {
+  font-family: Corleone;
+  color: black;
+  margin: 0;
+  text-shadow: 2px 2px #e70808;
+}
+
+#ninja:hover{
+  
+  border-style: solid;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  border-color: rgb(23, 58, 70);
+  border-width: 2px;
+ 
+}
+
