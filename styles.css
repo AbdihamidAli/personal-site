@@ -9,6 +9,7 @@
 
 body {
    background-color: lightgray;
+   margin: 0%;
    
 }
 
@@ -132,7 +133,7 @@ li.dropdown {
 .sticky {
   position: fixed;
   top: 0;
-  width: 98.7%;
+  width: 100%;
 }
 
 
